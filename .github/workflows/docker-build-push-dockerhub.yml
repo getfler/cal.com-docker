@@ -78,7 +78,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            palbrattberg/cal.com:latest
+            palbrattberg/cal.com
           # Add flavor latest only on full releases, not on pre-releases
           flavor: |
             latest=${{ !github.event.release.prerelease }}
