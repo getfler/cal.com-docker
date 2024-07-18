@@ -15,8 +15,8 @@ services:
     env_file: .env
     environment:
       - DATABASE_URL=${DATABASE_URL}
-      - VIRTUAL_HOST=linuxhunter.com
-      - LETSENCRYPT_HOST=linuxhunter.com
+      - VIRTUAL_HOST=flercal.com
+      - LETSENCRYPT_HOST=flercal.com
       - NEXT_PUBLIC_WEBAPP_URL=${NEXT_PUBLIC_WEBAPP_URL}
       - NEXT_PUBLIC_API_V2_URL=${NEXT_PUBLIC_API_V2_URL}
       - NEXT_PUBLIC_LICENSE_CONSENT=${NEXT_PUBLIC_LICENSE_CONSENT}
