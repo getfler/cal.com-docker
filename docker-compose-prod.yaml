@@ -7,7 +7,7 @@ networks:
 services:
 
   calcom:
-    image: palbrattberg/cal.com:latest
+    image: palbrattberg/cal.com
     container_name: calcom
     restart: always
     ports:
